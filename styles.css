@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(31, 30, 30);
+    width:800px;
+    justify-content:center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container1{
+    color:white;
+    background-color: #24395F;
+    height: 30%;
+    padding: 15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+}
+
+nav ul{
+    list-style-type:none;
+    display:flex;
+    gap: 15px;
+}
+
+.halves{
+    display:flex;
+    padding: 7em 0;
+    align-items: center;
+    gap: 2em;
+}
+
+#placeholderimg{
+    background-color: gray;
+    color:white;
+    height:140px;
+    align-items:center;
+    justify-conten t: center;
+}
+
+.lside{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.rside{
+    flex-shrink: 0;
+    width: 50%;
+}
+
+#container2{
+    color: 24395F;
+    background-color: white;
+    height: 27%;
+    padding: 20px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bluesquare{
+    width: 60px;
+    height: 60px;
+    border: 5px solid blue;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+#container2 ul{
+    list-style-type:none;
+    gap: 15px;
+    display:flex;
+    padding: 15px;
+}
+
+#container2 ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container3{
+    background-color: lightgrey;
+    color: 24395F;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container3 div{
+    width: 500px;
+}
+
+#container4{
+    height: 18%;
+    flex-basis: 100%;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#bigquote{
+    align-items:center;
+    justify-content:center;
+    width:500px;
+}
+
+#attribute{
+    text-align:right;
+}
+
+button{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    width: 120px;
+    margin: 5px 0;
+}
+
+.bluediv{
+`   height: 60px
+    flex-basis: 600px;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    margin: 25px;
+    padding: 20px;
+}
+
